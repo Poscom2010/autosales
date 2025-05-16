@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="PedzisaiP">
+    <link rel="favicon" href="../Carfavcon.512.png">
+    <title>Contact Poscom Limited</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="contact_form">
+    <header class="contact-us"> 
+        <h3>Contact Us ☎</h3>
+        <nav>
+            <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="hours.html">Operating Hours</a>
+                </li>  
+            </ul>
+        </nav>
+    </header>
+  
+  <section class=" contact">
+    <img src="./Images/contact us.jpg" alt="picture of a woman on a phone"width ="200">
+  </section>
+
+  <section class="contact form">
+    <header> 
+        <h3>Contact Form </h3>
+    </header>
+   
+        <strong><legend>Personal Information and Choices</legend></strong>
+
+        <form action="submit.php" method="post">
+            <fieldset>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required autofocus autocomplete ="on"
+                    placeholder="Tanaka">
+                </p>
+                <p>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="surname" id="surname" 
+                    placeholder="Mubuyayi" required>
+                </p>
+                <p>
+                    <label for="year of birth">Year Born</label>
+                    <input type="number" name="year of birth" id="year of birth" 
+                    min="1950" max="2002" step="2" value="1950" required>
+                </p>
+                <p>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" required placeholder="+27-555 555 5555"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                </p>
+                <p>
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email"required
+                    placeholder="test@company.com">
+                </p>  
+            </fieldset>
+            <br>
+            <fieldset class="choices">
+                <strong><legend>Select your Choices</legend></strong>
+                <p>Preferred Car</p>
+                <p>
+                    <label for="car">Select one</label>
+                    <select name="car" id="car" id = "car">
+                        <optgroup>
+                            <option value="Choose">-------Select--------</option>
+                            <option value="Audi A6">Audi A6</option>
+                            <option value="Range Rover">Range Rover</option>
+                            <option value="Lamborghini">Lamborghini</option>
+                            <option value="Bike">Bike</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="modeltype">Prefered Model</label>
+                    <br>
+                </p>
+                <p>
+                    <label for="hatchback">Hatchback</label>
+                    <input type="radio" name="model" id="hatchback" value="Hatchback">
+
+                    <label for="sedan">Sedan</label>
+                    <input type="radio" name="model" id="sedan" value="Sedan">
+
+                    <label for="sport">Sport</label>
+                    <input type="radio" name="model" id="sport" value="Sport">
+                </p>
+                <br>
+
+                <section class=" roads">
+                    <strong><legend>Roads</legend></strong>
+                        <p>
+                            <label for="highway">Highway</label>
+                            <input type="checkbox" name="road" id="highway">
+
+                            <label for="paved">Paved</label>
+                            <input type="checkbox" name="road" id="paved">
+
+                            <label for="unpaved">Unpaved</label>
+                            <input type="checkbox" name="road" id="unpaved">
+
+                            <label for="swampy">Swampy</label>
+                            <input type="checkbox" name="road" id="swampy"> 
+                        </p>
+                     </section>
+                <br>
+                <section>
+                    <strong>Roads</strong>
+                    <p>
+                        <label for="salary">Monthly Salary Range</label>
+                        <input type="range" name="salary" id="salary" min="$10 000" max="$15 000"
+                        step="100 000">
+                    </p>
+                    <legend>Your Message</legend>
+             
+                    <textarea name="message" id="message" placeholder="Type your other preferences here" cols="50" rows="8"></textarea>
+                    
+                </section>
+            </fieldset>
+            <br>
+
+            <section class=" buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </section>
+            
+        </form>
+   
+  </section>
+    <section class="address">
+        <h3 class="address">Our Address</h3>
+       <address>
+        134 Alie Van Beregen Street <br>
+        1240 <br>
+        Nelspruit <br>
+        Mpumalanga Province <br>
+        South Africa
+       </address>
+    </section>
+  <br>
+<p class=" backtop">
+    <a href="#">Back to Top</a>
+</p>
+<hr>
+
+<section class="footer">
+    <footer>
+        <p>
+        Copyright &copy Poscom Auto Ltd
+         </p>
+    </footer>
+</section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
